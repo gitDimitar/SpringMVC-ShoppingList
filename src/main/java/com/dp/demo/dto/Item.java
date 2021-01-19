@@ -28,33 +28,6 @@ public class Item {
     {
     }
 
-    public int solution(int[] A)
-    {
-        int ret = 0;
-        Arrays.sort(A);
-        String s = "asdassd";
-        s.lastIndexOf(s.charAt(ret));
-        Arrays.stream(A).sorted().filter(a -> {
-            int res = 1;
-            if(a == res)
-            {
-                res = a+1;
-            }
-            else if(a < res)
-            {
-
-            }
-            else
-            {
-                return res;
-            }
-
-            return res;
-        }).findFirst();
-
-        return ret;
-    }
-
     public int getItemID()
     {
         return itemID;
